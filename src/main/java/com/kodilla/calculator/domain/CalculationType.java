@@ -9,7 +9,7 @@ public enum CalculationType {
     MULTIPLICATION('*'),
     DIVISION(':');
 
-    private Character sign;
+    private final Character sign;
 
     private CalculationType(char sign) {
         this.sign = sign;

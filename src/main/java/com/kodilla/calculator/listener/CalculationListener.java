@@ -13,7 +13,7 @@ public class CalculationListener implements ApplicationListener<CalculationPerfo
 
     @Override
     public void onApplicationEvent(CalculationPerformedEvent event) {
-        logger.info(String.format("Performed %s: %s%s%s = %s.",
+        logger.info(String.format("Performed %s: %s%s%s = %s",
                 event.getOperation().name(),
                 event.getNum1(),
                 event.getOperation().getSign(),

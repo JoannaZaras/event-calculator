@@ -1,5 +1,6 @@
 # event-calculator
 Calculator performs addition, subtraction, multiplication and division of two numbers.
+Each calculation event is logged.
 
 Endpoint: http://localhost:8080/calculator/calculate
 
